@@ -1,0 +1,46 @@
+2025-01-25 16:19:42,420 INFO  [background-preinit] o.h.v.i.u.Version - HV000001: Hibernate Validator 6.1.7.Final
+2025-01-25 16:19:42,471 INFO  [restartedMain] m.RestApplication - Starting RestApplication using Java 11.0.25 on daniela-VirtualBox with PID 82788 (/home/daniela/Downloads/EMB-master/jdk_11_maven/cs/rest-gui/market/market-rest/target/classes started by daniela in /home/daniela/Downloads/EMB-master/jdk_11_maven/cs/rest-gui/market/market-rest)
+2025-01-25 16:19:42,473 DEBUG [restartedMain] m.RestApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2025-01-25 16:19:42,473 INFO  [restartedMain] m.RestApplication - No active profile set, falling back to default profiles: default
+2025-01-25 16:19:42,546 WARN  [restartedMain] o.s.b.c.c.ConfigDataEnvironment - Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 34:13]
+2025-01-25 16:19:42,546 WARN  [restartedMain] o.s.b.c.c.ConfigDataEnvironment - Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 24:13]
+2025-01-25 16:19:42,549 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-25 16:19:42,549 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-25 16:19:43,205 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25 16:19:43,293 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 84 ms. Found 8 JPA repository interfaces.
+2025-01-25 16:19:43,489 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'market.DataConfig' of type [market.DataConfig$$EnhancerBySpringCGLIB$$4b24df1a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-01-25 16:19:43,565 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2fcb1238' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-01-25 16:19:43,570 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-01-25 16:19:43,754 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-01-25 16:19:43,761 INFO  [restartedMain] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-01-25 16:19:43,762 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2025-01-25 16:19:43,762 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2025-01-25 16:19:43,824 INFO  [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2025-01-25 16:19:43,825 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1276 ms
+2025-01-25 16:19:43,872 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2025-01-25 16:19:43,928 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-25 16:19:43,986 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:market'
+2025-01-25 16:19:44,057 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-25 16:19:44,082 INFO  [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25 16:19:44,114 INFO  [restartedMain] o.h.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+2025-01-25 16:19:44,191 INFO  [restartedMain] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-25 16:19:44,330 INFO  [restartedMain] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-01-25 16:19:44,429 WARN  [restartedMain] o.h.b.i.InFlightMetadataCollectorImpl - HHH000069: Duplicate generator name gen
+2025-01-25 16:19:44,430 WARN  [restartedMain] o.h.b.i.InFlightMetadataCollectorImpl - HHH000069: Duplicate generator name gen
+2025-01-25 16:19:44,753 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-25 16:19:44,776 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25 16:19:45,223 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25 16:19:45,581 INFO  [restartedMain] o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44f71d78, org.springframework.security.web.context.SecurityContextPersistenceFilter@18404da1, org.springframework.security.web.header.HeaderWriterFilter@6498b59c, org.springframework.security.web.authentication.logout.LogoutFilter@37e0a527, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@37c94516, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3c1ceffb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40ea5e6d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d191cfa, org.springframework.security.web.session.SessionManagementFilter@3ba087e5, org.springframework.security.web.access.ExceptionTranslationFilter@66dbfa33, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@51a6fc6f]
+2025-01-25 16:19:45,657 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2025-01-25 16:19:45,819 INFO  [restartedMain] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-01-25 16:19:45,865 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-01-25 16:19:46,077 INFO  [restartedMain] m.RestApplication - Started RestApplication in 4.034 seconds (JVM running for 4.616)
+2025-01-25 16:20:12,285 INFO  [http-nio-8081-exec-2] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-25 16:20:12,286 INFO  [http-nio-8081-exec-2] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-25 16:20:12,293 INFO  [http-nio-8081-exec-2] o.s.w.s.DispatcherServlet - Completed initialization in 6 ms
+2025-01-25 16:26:16,820 WARN  [http-nio-8081-exec-9] m.r.e.RestExceptionHandler - RestErrorResponse{message='Access is denied', entityName='null', description='uri=/customer/contacts', fieldErrors=[]}
+2025-01-25 16:26:16,841 WARN  [http-nio-8081-exec-9] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access is denied]
+2025-01-25 16:31:37,710 INFO  [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-01-25 16:31:37,715 INFO  [SpringContextShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25 16:31:37,724 INFO  [SpringContextShutdownHook] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-01-25 16:31:37,785 INFO  [SpringContextShutdownHook] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
